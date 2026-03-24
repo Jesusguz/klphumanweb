@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
 
 /* ─── Variables ─────────────────────────────────────────── */
-/*:root {
+:root {
   --deep:        #1C2B4A;
   --deep-800:    #243660;
   --gold:        #C8952A;
@@ -25,33 +25,6 @@
   --radius-lg:   20px;
   --transition:  0.35s cubic-bezier(0.4,0,0.2,1);
   --nav-h:       80px;
-}*/
-
-/* ─── Variables de Marca KLP HUMAN ─────────────────────────── */
-:root {
-  /* Colores Principales del Logo */
-  --brand-blue:      #2563A8; /* Azul KLP - Confianza y base */
-  --brand-blue-dark: #1A477A; /* Versión oscura para hovers */
-  --brand-magenta:   #BA1871; /* Magenta Conectando - CTAs principales */
-  --brand-yellow:    #F3B11A; /* Amarillo Felicidad - Acentos y detalles */
-  --brand-cyan:      #38B4D4; /* Cyan humano - Iconos y elementos secundarios */
-
-  /* Neutros y Fondos (Limpios para resaltar la marca) */
-  --warm-white:      #F8FAFC; /* Un fondo principal más limpio y luminoso */
-  --cream:           #F1F5F9; /* Reemplazo del crema por un gris-azulado muy sutil */
-  --text:            #1E293B; /* Texto principal oscuro (mejor lectura que negro puro) */
-  --text-muted:      #64748B; /* Textos secundarios y descripciones */
-
-  /* Sombras (tintadas con el azul de la marca para mayor armonía) */
-  --shadow-sm:       0 2px 12px rgba(37, 99, 168, .08);
-  --shadow-md:       0 8px 32px rgba(37, 99, 168, .12);
-  --shadow-lg:       0 20px 60px rgba(37, 99, 168, .16);
-  
-  /* Estructura */
-  --radius:          12px;
-  --radius-lg:       20px;
-  --transition:      0.35s cubic-bezier(0.4,0,0.2,1);
-  --nav-h:           80px;
 }
 
 /* ─── Reset & Base ───────────────────────────────────────── */
@@ -231,28 +204,16 @@ nav ul li a.nav-cta:hover {
   text-decoration: none;
 }
 
-/*.btn-primary {
+.btn-primary {
   background: var(--gold);
   color: var(--deep);
   border-color: var(--gold);
-}*/
-.btn-primary {
-  background: var(--brand-magenta);
-  color: var(--warm-white);
-  border-color: var(--brand-magenta);
 }
-/*
 .btn-primary:hover {
   background: var(--gold-light);
   border-color: var(--gold-light);
   transform: translateY(-2px);
   box-shadow: 0 8px 24px rgba(200,149,42,.35);
-}*/
-.btn-primary:hover {
-  background: #9D145F; /* Un magenta ligeramente más oscuro */
-  border-color: #9D145F;
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(186, 24, 113, 0.35);
 }
 
 .btn-outline {
